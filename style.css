@@ -460,6 +460,9 @@ header .navbar ul li a:hover {
 
 /* skills section starts */
 .skills {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
@@ -470,6 +473,8 @@ header .navbar ul li a:hover {
   color: rgb(255, 230, 0);
 }
 .skills .container {
+  display: flex;
+  flex-wrap: wrap;
   background: rgba(0, 0, 22, 0.4);
   color: #fff;
   border-radius: 1rem;
@@ -480,9 +485,9 @@ header .navbar ul li a:hover {
 }
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   flex-wrap: wrap;
-  gap: 1.8rem;
+  gap: 1.3rem;
 }
 .skills .container .bar{
   margin-bottom: 15px;
@@ -499,6 +504,7 @@ header .navbar ul li a:hover {
 .skills .container .bar .info {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
@@ -519,6 +525,7 @@ header .navbar ul li a:hover {
     margin: 0;
   }
   .skills .container .row {
+    flex-wrap: wrap;
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
@@ -526,6 +533,7 @@ header .navbar ul li a:hover {
   }
   .skills .container {
     margin-top: 5px;
+    display: flex;
     width: 100%;
   }
 }
