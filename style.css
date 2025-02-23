@@ -466,7 +466,7 @@ header .navbar ul li a:hover {
   flex-direction: column;
     justify-content: center;
   flex-wrap: wrap;
-  min-height: 90vh;
+  min-height: 100vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
 .skills h2 {
