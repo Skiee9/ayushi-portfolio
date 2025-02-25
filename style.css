@@ -1226,3 +1226,162 @@ form .button-area {
     grid-template-columns: 1fr;
   }
 }
+.contact {
+  text-align: center;
+  padding: 50px 20px;
+  background: #baa3cf39;
+}
+
+.heading {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Flexbox Layout */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1400px;
+  margin: auto;
+  padding: 50px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Section */
+.contact-image {
+  flex: 1;
+  text-align: center;
+}
+
+.contact-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Contact Info */
+.contact-info {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+}
+
+.contact-info h3 {
+  font-size: 22px;
+  color: #444;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info h3 i {
+  color: #007bff;
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* =================================== */
+/* Responsive Design for Different Screens */
+/* =================================== */
+
+/* Large Screens (Desktops) */
+@media (min-width: 1200px) {
+  .contact-container {
+      gap: 80px;
+      padding: 60px;
+  }
+
+  .contact-info h3 {
+      font-size: 24px;
+  }
+
+  .contact-info h3 i {
+      font-size: 26px;
+  }
+}
+
+/* Medium Screens (Tablets & Small Laptops) */
+@media (max-width: 1024px) {
+  .contact-container {
+      flex-direction: column;
+      text-align: center;
+      gap: 40px;
+      padding: 40px;
+  }
+
+  .contact-info {
+      text-align: center;
+  }
+
+  .contact-info h3 {
+      font-size: 20px;
+  }
+
+  .contact-info h3 i {
+      font-size: 24px;
+  }
+}
+
+/* Small Screens (Mobile Phones) */
+@media (max-width: 768px) {
+  .contact-container {
+      padding: 30px;
+  }
+
+  .contact-info h3 {
+      font-size: 18px;
+  }
+
+  .contact-info h3 i {
+      font-size: 20px;
+  }
+
+  .heading {
+      font-size: 26px;
+  }
+}
+@media (max-width: 450px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .contact-info h3 {
+    font-size: 16px;
+  }
+
+  .contact-info h3 i {
+    font-size: 18px;
+  }
+
+  .contact-info a {
+    font-size: 15px;
+  }
+
+  .contact-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+}
