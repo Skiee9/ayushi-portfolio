@@ -272,10 +272,17 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
     },
     {
       name: "Movie Site",
-      desc: "A modern, responsive movie browsing app that allows users to search for movies.",
+      desc: "A modern and responsive movie web browsing app that allows users to search for movies.Built with react and API for the intergration and real time loading",
       repo: "https://github.com/Skiee9/Sample-prooject",
       liveDemo: "https://skiee9.github.io/Sample-prooject/",
-      image : "mv.png" }
+      image : "mv.png" },
+      {
+        name: "Password Generator",
+        desc: "The Password Generator is a web application designed to help users create strong passwords. It allows users to customize the length and complexity of the passwords generated.",
+        repo: "https://github.com/Skiee9/PasswordGenerator",
+        liveDemo: "skiee9.github.io/PasswordGenerator/",
+        image: "pg.png"
+      }
   ];
 
   // Get the specific .box-container within the #work section
