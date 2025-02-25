@@ -541,6 +541,29 @@ header .navbar ul li a:hover {
     width: 100%;
   }
 }
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .skills .container {
+    padding: 0;
+    margin: 0 auto; /* Center the container */
+    max-width: 90%; /* Adjust width for better layout */
+  }
+
+  .skills .container .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+    margin: 1.5rem auto;
+    padding: 2rem;
+    gap: 1.5rem;
+  }
+
+  .skills .container {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 /* skills media queries ends*/
 /* skills section ends */
 
@@ -666,7 +689,7 @@ header .navbar ul li a:hover {
 .work .box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2.5rem;
   margin: 0rem;
 }
 .work .box-container .box {
@@ -675,7 +698,7 @@ header .navbar ul li a:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
-  height: 30rem;
+  height: 40rem;
 }
 .work .box-container .box img {
   height: 100%;
@@ -702,20 +725,30 @@ header .navbar ul li a:hover {
   padding-left: 1rem;
   background: #ffd900;
 }
+.project-desc {
+  font-size: 14px;
+  color: #fdfafa;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
 .work .box-container .box .content .tag h3 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .work .box-container .box:hover .content {
   top: 25%;
 }
+
 .work .desc {
   margin: 2rem;
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
 }
 .work .desc p {
   font-size: 1.5rem;
+ padding: 20px;
+  text-align: center;
 }
 .work .desc .btns {
   display: flex;

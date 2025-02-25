@@ -196,6 +196,12 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 //     }  
 // });
 
+  function downloadResume() {
+    setTimeout(() => {
+    //   window.location.href = "https://drive.google.com/uc?export=download&id=1titoqwquA1kEVuZLGMjyZZOIf6IAsCSv";
+    window.location.href = "https://raw.githubusercontent.com/Skiee9/Ayushi_Resume/main/Ayushi-FrontendDeveloper(React)-9Ss0.pdf"
+}); 
+  }
 
 
 
@@ -250,22 +256,26 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
   const projects = [
     {
       name: "Weather App",
+      desc: "A web app that provides real-time weather updates using OpenWeather API.",
       repo: "https://github.com/Skiee9/weatherapp",
+      
       liveDemo: "https://skiee9.github.io/weatherapp/",
-      image: "https://static.vecteezy.com/system/resources/previews/020/330/631/original/3d-glassmorphism-weather-forecast-app-template-mobile-interface-template-weather-icons-set-isolated-on-blue-background-vector.jpg"
+      image: "mo.png"
     },
     {
       name: "To-Do App",
+      desc: "A simple to-do list app to manage daily tasks with local storage support.",
       repo: "https://github.com/Skiee9/todoapp",
       liveDemo: "https://skiee9.github.io/todoapp/",
-      image :"https://th.bing.com/th/id/OIP.Tai24BuXPmuSiOsItwzedgHaFj?w=258&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+      image:"todopic.png"
+    //   image :"https://th.bing.com/th/id/OIP.Tai24BuXPmuSiOsItwzedgHaFj?w=258&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7"
     },
     {
       name: "Movie Site",
+      desc: "A modern, responsive movie browsing app that allows users to search for movies.",
       repo: "https://github.com/Skiee9/Sample-prooject",
       liveDemo: "https://skiee9.github.io/Sample-prooject/",
-      image : "https://imgproxy.epicpxls.com/AvR7dopgLprhZ3dmSnPkZCynIc-90bRWg5I7hiBwmIA/rs:fill:409:307:0/g:no/aHR0cHM6Ly9pdGVt/cy5lcGljcHhscy5j/b20vdXBsb2Fkcy9w/aG90by9iZTFlNTBm/ZWQ4OGNiYjg1Yjg1/OGMyNGRmZTUzMzI2/NC5wbmc.jpg"
-    }
+      image : "mv.png" }
   ];
 
   // Get the specific .box-container within the #work section
@@ -279,6 +289,7 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
     projectCard.innerHTML = `
       <img src="${project.image}" alt="${project.name} Demo" class="project-image">
       <h3>${project.name}</h3>
+      <p class="project-desc">${project.desc}</p>
       <p>
         <a href="${project.repo}" target="_blank">GitHub Repo</a> | 
         <a href="${project.liveDemo}" target="_blank">Live Demo</a>
