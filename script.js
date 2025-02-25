@@ -280,7 +280,7 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
         name: "Password Generator",
         desc: "The Password Generator is a web application designed to help users create strong passwords. It allows users to customize the length and complexity of the passwords generated.",
         repo: "https://github.com/Skiee9/PasswordGenerator",
-        liveDemo: "skiee9.github.io/PasswordGenerator/",
+        liveDemo: "https://skiee9.github.io/PasswordGenerator/",
         image: "pg.png"
       }
   ];
