@@ -1386,12 +1386,20 @@ form .button-area {
 
   .contact-info h3 i {
     font-size: 14px;
+    word-wrap: break-word;
   }
 
-  .contact-info a {
+  /* .contact-info a {
     font-size: 15px;
+  } */
+  .contact-info span, 
+  .contact-info a {
+    font-size: 13px;
   }
-
+  .contact-info {
+    text-align: center;
+    padding: 10px;
+  }
   .contact-image img {
     width: 100%;
     height: auto;
@@ -1399,7 +1407,7 @@ form .button-area {
   }
 
   .heading {
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 .social-icons {
