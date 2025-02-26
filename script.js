@@ -200,6 +200,7 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
     setTimeout(() => {
     //   window.location.href = "https://drive.google.com/uc?export=download&id=1titoqwquA1kEVuZLGMjyZZOIf6IAsCSv";
     window.location.href = "https://raw.githubusercontent.com/Skiee9/Ayushi_Resume/main/Ayushi-FrontendDeveloper(React)-9Ss0.pdf"
+    // window.location.href ="Ayushi_Resume.pdf"
 }); 
   }
 
@@ -252,7 +253,7 @@ srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
 
 // project
-  // Example JSON data
+  
   const projects = [
     {
       name: "Weather App",
