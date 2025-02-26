@@ -258,13 +258,14 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
       name: "Weather App",
       desc: "A web app that provides real-time weather updates using OpenWeather API.",
       repo: "https://github.com/Skiee9/weatherapp",
-      
+      tech: "Tech Stack : Html, CSS, JS",
       liveDemo: "https://skiee9.github.io/weatherapp/",
       image: "mo.png"
     },
     {
       name: "To-Do App",
       desc: "A simple to-do list app to manage daily tasks with local storage support.",
+      tech: "Tech Stack : Html, CSS, JS",
       repo: "https://github.com/Skiee9/todoapp",
       liveDemo: "https://skiee9.github.io/todoapp/",
       image:"todopic.png"
@@ -273,12 +274,14 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
     {
       name: "Movie Site",
       desc: "A modern and responsive movie web browsing app that allows users to search for movies.Built with react and API for the intergration and real time loading",
+      tech: "Tech Stack : Html, CSS, JS, React",
       repo: "https://github.com/Skiee9/Sample-prooject",
       liveDemo: "https://skiee9.github.io/Sample-prooject/",
       image : "mv.png" },
       {
         name: "Password Generator",
         desc: "The Password Generator is a web application designed to help users create strong passwords. It allows users to customize the length and complexity of the passwords generated.",
+        tech: "Tech Stack : Html, CSS, JS",
         repo: "https://github.com/Skiee9/PasswordGenerator",
         liveDemo: "https://skiee9.github.io/PasswordGenerator/",
         image: "pg.png"
@@ -297,6 +300,7 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
       <img src="${project.image}" alt="${project.name} Demo" class="project-image">
       <h3>${project.name}</h3>
       <p class="project-desc">${project.desc}</p>
+      <p class="project-tech">${project.tech}</p>
       <p>
         <a href="${project.repo}" target="_blank">GitHub Repo</a> | 
         <a href="${project.liveDemo}" target="_blank">Live Demo</a>
