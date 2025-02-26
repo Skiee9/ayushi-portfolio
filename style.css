@@ -1236,7 +1236,9 @@ form .button-area {
 #work .box-container .project-card a:hover {
   text-decoration: underline;
 }
-
+.project-tech{
+  font-size: 1.5rem;
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
   #work .box-container {
