@@ -302,10 +302,17 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
       <p class="project-desc">${project.desc}</p>
       <p class="project-tech">${project.tech}</p>
       <br>
-      <p>
-        <a href="${project.repo}" target="_blank">GitHub Repo</a> | 
-        <a href="${project.liveDemo}" target="_blank">Live Demo</a>
-      </p>
+     <p>
+  <a href="${project.repo}" target="_blank">
+    <i class="fab fa-github fa-2x"></i>
+  </a> |  
+  <a href="${project.liveDemo}" target="_blank">
+    <i class="fas fa-external-link-alt fa-2x"></i>
+  </a>
+</p>
+
+
+
     `;
   
     container.appendChild(projectCard);
