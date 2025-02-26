@@ -1421,3 +1421,42 @@ form .button-area {
 .social-icons a:first-child:hover {
   color: #9ea8af; /* GitHub Black */
 }
+@media (max-width: 350px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .contact-info h3 {
+    font-size: 14px;
+  }
+
+  .contact-info h3 i {
+    font-size: 16px;
+  }
+
+  .contact-info a {
+    font-size: 13px;
+  }
+
+  .contact-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .social-icons {
+    margin-top: 0.8rem;
+  }
+
+  .social-icons a {
+    font-size: 1.8rem;
+    margin-right: 0.8rem;
+  }
+}
