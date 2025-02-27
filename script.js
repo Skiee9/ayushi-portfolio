@@ -203,7 +203,28 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
     // window.location.href ="Ayushi_Resume.pdf"
 }); 
   }
-
+  // function downloadResume() { window.location.href = 'Ayushi_Resume.pdf'; }
+  // function downloadResume() { document.querySelector('.resumebtn a').click(); }
+//   function downloadResume() { 
+//     const link = document.querySelector('.resumebtn a');
+//     link.setAttribute('download', 'Ayushi_Resume.pdf');
+//     link.click();
+// }
+function downloadResume() { 
+  const link = document.querySelector('.resumebtn a');
+  const url = link.getAttribute('href');
+  
+  // Open in a new tab
+  window.open(url, '_blank');
+  
+  // Trigger download
+  const a = document.createElement('a');
+  a.href = url;
+  a.setAttribute('download', 'Ayushi_Resume.pdf');
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
 
 
 const srtop = ScrollReveal({
