@@ -29,7 +29,7 @@ $(document).ready(function () {
         });
     });
 
-    smooth scrolling
+    // smooth scrolling
     $('a[href*="#"]').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
