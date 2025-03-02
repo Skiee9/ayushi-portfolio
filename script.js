@@ -332,10 +332,7 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
     <i class="fas fa-external-link-alt fa-2x"></i>
   </a>
 </p>
-
-
-
-    `;
+ `;
   
     container.appendChild(projectCard);
   });
