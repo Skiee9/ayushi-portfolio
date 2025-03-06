@@ -304,7 +304,7 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
         name: "Fable and Co.",
         desc: "A modern and fully responsive e-commerce demo website with smooth animations and a clean user experience.",
         tech: "Tech Stack : HTML, CSS, JavaScript, React, Redux",
-        repo: "https://github.com/YourGitHubUsername/Fable-and-Co-Project",
+        repo: "https://github.com/Skiee9/fable-Co.",
         liveDemo: "https://fable-co.vercel.app/",
         image: "fc.png"
       },
