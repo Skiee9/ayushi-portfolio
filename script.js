@@ -301,6 +301,14 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
       liveDemo: "https://skiee9.github.io/Sample-prooject/",
       image : "mv.png" },
       {
+        name: "Fable and Co.",
+        desc: "A modern and fully responsive e-commerce demo website with smooth animations and a clean user experience.",
+        tech: "Tech Stack : HTML, CSS, JavaScript, React, Redux",
+        repo: "https://github.com/YourGitHubUsername/Fable-and-Co-Project",
+        liveDemo: "https://yourgithubusername.github.io/Fable-and-Co-Project/"
+      },
+      
+      {
         name: "Password Generator",
         desc: "The Password Generator is a web application designed to help users create strong passwords. It allows users to customize the length and complexity of the passwords generated.",
         tech: "Tech Stack : Html, CSS, JS",
