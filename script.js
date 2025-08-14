@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend developer"],
+    strings: ["full Stack developer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -266,8 +266,8 @@ srtop.reveal('.skills .container .bar', { delay: 400 });
 srtop.reveal('.work .box', { interval: 200 });
 
 /* SCROLL EXPERIENCE */
-// srtop.reveal('.experience .timeline', { delay: 400 });
-// srtop.reveal('.experience .timeline .container', { interval: 400 });
+srtop.reveal('.experience .timeline', { delay: 400 });
+srtop.reveal('.experience .timeline .container', { interval: 400 });
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
@@ -276,38 +276,40 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
 // project
   
   const projects = [
-    {
-      name: "Weather App",
-      desc: "A web app that provides real-time weather updates using OpenWeather API.",
-      repo: "https://github.com/Skiee9/weatherapp",
-      tech: "Tech Stack : Html, CSS, JS",
-      liveDemo: "https://skiee9.github.io/weatherapp/",
-      image: "mo.png"
-    },
-    {
-      name: "To-Do App",
-      desc: "A simple to-do list app to manage daily tasks with local storage support.",
-      tech: "Tech Stack : Html, CSS, JS",
-      repo: "https://github.com/Skiee9/todoapp",
-      liveDemo: "https://skiee9.github.io/todoapp/",
-      image:"todopic.png"
-    //   image :"https://th.bing.com/th/id/OIP.Tai24BuXPmuSiOsItwzedgHaFj?w=258&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-    },
-    {
+     {
       name: "Streamify App",
       desc: "A real-time communication platform with messaging, typing indicators, reactions, 1-on-1 & group video calls, screen sharing, and call recording",
-      tech: "Tech Stack : React, Node.js, Socket.io, Express, MongoDB, TAilwind CSS, JWT, Daisy UI, Stream service, Postman",
+      tech: "Tech Stack : (MERN) React, Node.js, Socket.io, Express, MongoDB, TAilwind CSS, JWT, Daisy UI, Stream service, Postman",
       repo: "https://github.com/Skiee9/Streamify",
       liveDemo: "https://streamify-videocall-app.onrender.com/",
       image : "stream.png" },
-      {
+
+       {
         name: "Fable and Co.",
         desc: "A modern and fully responsive e-commerce demo website with smooth animations and a clean user experience.",
-        tech: "Tech Stack : HTML, CSS, JavaScript, React, Redux",
+        tech: "Tech Stack : React, Tailwind CSS, API, Redux-toolkit",
         repo: "https://github.com/Skiee9/fable-Co.",
         liveDemo: "https://fable-co.vercel.app/",
         image: "fc.png"
       },
+    {
+      name: "Weather App",
+      desc: "A web app that provides real-time weather updates using OpenWeather API.",
+      repo: "https://github.com/Skiee9/weatherapp",
+      tech: "Tech Stack : Html, CSS, JS, OpenWeather API",
+      liveDemo: "https://skiee9.github.io/weatherapp/",
+      image: "mo.png"
+    },
+    // {
+    //   name: "To-Do App",
+    //   desc: "A simple to-do list app to manage daily tasks with local storage support.",
+    //   tech: "Tech Stack : Html, CSS, JS",
+    //   repo: "https://github.com/Skiee9/todoapp",
+    //   liveDemo: "https://skiee9.github.io/todoapp/",
+    //   image:"todopic.png"
+
+    // },
+   
       
       {
         name: "Password Generator",
