@@ -294,12 +294,12 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
     //   image :"https://th.bing.com/th/id/OIP.Tai24BuXPmuSiOsItwzedgHaFj?w=258&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7"
     },
     {
-      name: "Movie Site",
-      desc: "A modern and responsive movie web browsing app that allows users to search for movies.Built with react and API for the intergration and real time loading",
-      tech: "Tech Stack : Html, CSS, JS, React",
-      repo: "https://github.com/Skiee9/Sample-prooject",
-      liveDemo: "https://skiee9.github.io/Sample-prooject/",
-      image : "mv.png" },
+      name: "Streamify App",
+      desc: "A real-time communication platform with messaging, typing indicators, reactions, 1-on-1 & group video calls, screen sharing, and call recording",
+      tech: "Tech Stack : React, Node.js, Socket.io, Express, MongoDB, TAilwind CSS, JWT, Daisy UI, Stream service, Postman",
+      repo: "https://github.com/Skiee9/Streamify",
+      liveDemo: "https://streamify-videocall-app.onrender.com/",
+      image : "stream.png" },
       {
         name: "Fable and Co.",
         desc: "A modern and fully responsive e-commerce demo website with smooth animations and a clean user experience.",
