@@ -199,7 +199,7 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
   function downloadResume() {
     setTimeout(() => {
     //   window.location.href = "https://drive.google.com/uc?export=download&id=1titoqwquA1kEVuZLGMjyZZOIf6IAsCSv";
-    window.location.href = "Ayushi_Resume_fullStack.pdf";
+    window.location.href = "Ayushi_FullStack_Resume.pdf";
     // window.location.href ="Ayushi_Resume.pdf"
 }); 
   }
@@ -220,7 +220,7 @@ function downloadResume() {
   // Trigger download
   const a = document.createElement('a');
   a.href = url;
-  a.setAttribute('download', 'Ayushi_Resume_fullStack.pdf');
+  a.setAttribute('download', 'Ayushi_FullStack_Resume.pdf');
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
